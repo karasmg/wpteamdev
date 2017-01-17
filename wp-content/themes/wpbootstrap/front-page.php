@@ -49,6 +49,7 @@
     <p><?php echo get_theme_mod('showcase_text', 'Sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean eu leo quam'); ?></p>
     <a href="<?php echo get_theme_mod('btn_url', 'http://test.com'); ?>" class="btn btn-primary btn-lg"><?php echo get_theme_mod('btn_text', 'Get Started'); ?></a>
   </div>
+  <?php echo do_shortcode( '[contact-form-7 id="20" title="Contact form 1"]' ); ?>
 </section>
 
 <section class="boxes">
